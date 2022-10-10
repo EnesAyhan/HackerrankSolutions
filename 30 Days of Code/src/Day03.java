@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class day03 {
+public class Day03 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -12,7 +12,7 @@ public class day03 {
 
         int tax_percent = Integer.parseInt(bufferedReader.readLine().trim());
 
-        day03.solve(meal_cost, tip_percent, tax_percent);
+        Day03.solve(meal_cost, tip_percent, tax_percent);
 
         bufferedReader.close();
     }

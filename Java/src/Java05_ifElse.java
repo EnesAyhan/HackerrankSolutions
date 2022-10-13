@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Java05 {
+public class Java05_ifElse {
 
     /*
     TASK
